@@ -1,0 +1,31 @@
+@import "../../dist/vant-weapp/dist/common/index.wxss";
+@import "../template/header-return-temp/header-return-temp.wxss";
+
+/**index.wxss**/
+.box{
+  width:100%
+}
+.self-tabs{
+  margin: 5px 0;
+  background: #fff;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+/*.usermotto {
+  margin-top: 200px;
+}*/

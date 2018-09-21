@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "测试页面",
+  "usingComponents": {
+    "van-tab": "../../dist/vant-weapp/dist/tab/index",
+    "van-tabs": "../../dist/vant-weapp/dist/tabs/index",
+    "van-row": "../../dist/vant-weapp/dist/row/index",
+    "van-col": "../../dist/vant-weapp/dist/col/index"
+  }
+}

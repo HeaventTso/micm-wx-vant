@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<import src="../template/header-return-temp/header-return-temp.wxml" />
+<view class="container">
+
+  <template is="header-return-temp" data="{{ ...headerInfo }}" />
+
+  <view class="box self-tabs">
+    <van-tabs active="{{ active }}" bind:change="onChange" color="rgb(3, 95, 255)">
+      <van-tab title="投资信息"></van-tab>
+      <van-tab title="财务信息">内容 2</van-tab>
+      <van-tab title="基本信息">内容 3</van-tab>
+      <van-tab title="上市信息">内容 4</van-tab>
+    </van-tabs>
+  </view>
+
+  <!--
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  -->
+
+</view>
