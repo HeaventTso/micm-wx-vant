@@ -1,15 +1,11 @@
 <template name="header-return-temp">
   <view class="header">
     <van-row gutter="1">
-        <van-col offset="1" span="1">r</van-col>
-        <view wx:if="{{ title != null}}">
-          <van-col span="12">{{ title }}</van-col>
-        </view>
-        <view wx:if="{{ date != null}}">
-          <van-col span="10">
-            <view class="text-tips-menu">截止日期：{{ date }}</view>
-          </van-col>
-        </view >
+        <van-col offset="1" span="1" >
+          <van-icon name="arrow-left"></van-icon>
+        </van-col>
+        <van-col wx:if="{{ title != null}}" span="12">{{ title }}</van-col>
+        <van-col wx:if="{{ date != null}}" span="10" class="text-tips-menu" >截止日期：{{ date }}</van-col>
     </van-row>
   </view>
 </template>
